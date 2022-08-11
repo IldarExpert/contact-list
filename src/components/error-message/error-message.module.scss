@@ -1,0 +1,35 @@
+.errorMessage {
+  position: absolute;
+  bottom: calc(100% + 27px);
+
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  padding: 20px;
+  background: #F5E9E9;
+  border: 1px solid #E26F6F;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.styledPic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+
+  margin-right: 14px;
+
+  font-size: 14px;
+  line-height: 17px;
+  color: #EE6565;
+  background: #FFC8C8;
+}
+
+.errorText {
+  font-size: 14px;
+}

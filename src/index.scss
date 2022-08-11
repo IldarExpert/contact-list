@@ -1,0 +1,30 @@
+@import-normalize;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #232323;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 0;
+  margin: 0;
+
+  background-color: transparent;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+}

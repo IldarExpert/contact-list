@@ -1,0 +1,19 @@
+.contact {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: lightgray;
+  margin-bottom: 30px;
+  padding: 0 25px;
+  border-radius: 8px;
+
+  .buttons {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+  }
+}

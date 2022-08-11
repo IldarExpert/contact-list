@@ -1,0 +1,44 @@
+.inputWrapper {
+  position: relative;
+}
+
+.auth {
+  margin-bottom: 45px;
+}
+
+.contacts {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.label {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.input {
+  background: #F5F5F5;
+  border-radius: 8px;
+  border: none;
+  padding: 20px;
+  width: 100%;
+  min-width: 200px;
+}
+
+.error {
+  border: 1px solid #E26F6F;
+}
+
+.errorRequired {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #E26F6F;
+}

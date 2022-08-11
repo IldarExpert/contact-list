@@ -1,0 +1,22 @@
+.button {
+  width: 100%;
+  padding: 19px;
+
+  background: #4A67FF;
+  border-radius: 8px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #FFFFFF;
+}
+
+.red {
+  background: darkred;
+}
+
+.disabled {
+  background: #99A9FF;
+  cursor: auto;
+}
